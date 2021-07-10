@@ -34,7 +34,7 @@ export default function Favoritos() {
                         <li key={item.id}>
                             <span>{item.nome}</span>
                             <div>
-                                <Link to={`/filme/${item.id}`}>Ver detalhes</Link>
+                                <Link to={`/filme/${item.id}`}><p>Ver detalhes</p></Link>
                                 <button onClick={ () => handleDelete(item.id) }>Excluir</button>
                             </div>
                         </li>

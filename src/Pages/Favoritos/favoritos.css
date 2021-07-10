@@ -4,28 +4,39 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
 }
 h1 {
     margin: 10px 0 20px 0;
 }
 ul {
     padding: 0;
+    background-color: transparent;
 }
 ul li {
-    padding: 0;
+    padding: 5px;
     list-style: none;
     min-width: 600px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
+    background-color: rgb(0, 0, 0);
 }
 span {
     font-size: 23px;
 }
+p {
+    transition: .2s;
+}
+p:hover {
+   color: #FF530C;
+}
 button {
+    width: 100px;
     color: #000;
-    margin-left: 10px;
+    margin-right: 10px;
+
 }
 ul li div a {
     text-decoration: none;
