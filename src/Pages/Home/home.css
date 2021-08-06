@@ -1,13 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 55%;
-    
-}
-.lista-filmes {
-    margin: 20px;
 }
 .lista-filmes article {
     display: flex;
@@ -20,8 +18,9 @@
 }
 .lista-filmes strong {
     padding-bottom: 15px;
-    font-size: 32px;
+    font-size: 42px;
     color: black;
+    font-family: 'Teko', sans-serif;
 }
 .lista-filmes img {
     width: 100%;

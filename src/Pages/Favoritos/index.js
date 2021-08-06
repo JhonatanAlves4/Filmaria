@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './favoritos.css';
 import { toast } from 'react-toastify';
 
+
 export default function Favoritos() {
     const [filmes, setFilmes] = useState([]);
 
@@ -33,9 +34,9 @@ export default function Favoritos() {
                     return(
                         <li key={item.id}>
                             <span>{item.nome}</span>
-                            <div>
-                                <Link to={`/filme/${item.id}`}><p>Ver detalhes</p></Link>
-                                <button onClick={ () => handleDelete(item.id) }>Excluir</button>
+                            <div className="li">
+                                <Link to={`/filme/${item.id}`}><p className="p">Ver detalhes</p></Link>
+                                <button id="btn" onClick={ () => handleDelete(item.id) }>Excluir</button>
                             </div>
                         </li>
                     )

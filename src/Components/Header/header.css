@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
 header {
     display: flex;
     align-items: center;
@@ -10,15 +12,17 @@ header {
 }
 .logo {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 28px;
     cursor: pointer;
+    font-family: 'Dancing Script', cursive;
 }
 .favoritos {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     cursor: pointer;
     padding: 5px;
     border: 1px solid #fff;
     border-radius: 5px;
     background-color: transparent;
+    font-family: 'Dancing Script', cursive;
 }

@@ -25,7 +25,7 @@ export default function Home() {
           {filmes.map((filme) => {
             return(
               <article key={filme.id}>
-                <strong>{filme.nome}</strong>
+                <h1><strong>{filme.nome}</strong></h1>
                 <img src={filme.foto} alt={filme.nome}/>
                 <Link to={`/filme/${filme.id}`}>Acessar</Link>
               </article>

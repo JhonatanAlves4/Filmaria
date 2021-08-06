@@ -4,6 +4,9 @@ import { useParams, useHistory} from 'react-router-dom';
 import '../../Services/api';
 import api from '../../Services/api';
 import { toast } from 'react-toastify';
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap');
+</style>
 
 export default function Filme() {
     const { id } = useParams();
@@ -62,12 +65,14 @@ export default function Filme() {
     }
 
     return(
+        
         <div className="filme-info">
             <h1>{filme.nome}</h1>
             <img src={filme.foto} alt={filme.nome}/>
 
             <h3>Sinopse</h3>
-            {filme.sinopse}
+
+            <p className="paragraph">{filme.sinopse}</p>
 
             <div className="botoes">
                 <button onClick={ salvaFilme } className="btnSalvar">Salvar</button>
