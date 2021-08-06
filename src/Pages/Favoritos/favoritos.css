@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+
 #meus-filmes {
     display: flex;
     width: 100%;
@@ -8,6 +10,7 @@
 }
 h1 {
     margin: 10px 0 20px 0;
+    font-family: 'Teko', sans-serif;
 }
 ul {
     padding: 0;

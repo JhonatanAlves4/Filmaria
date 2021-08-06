@@ -24,10 +24,7 @@ header {
     border: 1px solid #fff;
     border-radius: 5px;
     background-color: transparent;
-<<<<<<< HEAD
     font-family: 'Dancing Script', cursive;
-}
-=======
     transition: .2s;
 }
 .favoritos:hover {
@@ -35,4 +32,3 @@ header {
     color: #000;
     border: 1px #000 solid;
 }
->>>>>>> a624de0b1dbdc7deffc57d6847afbb45df4cfcf4
